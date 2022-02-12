@@ -1,4 +1,4 @@
-FROM ubi8/nodejs-14-minimal
+FROM registry.access.redhat.com/ubi8/nodejs-14
 
 ENV NPM_CONFIG_LOGLEVEL info
 ENV NODE_VERSION 16.14.0
